@@ -492,10 +492,10 @@
     /* Steps tab: compact rows so it fits one phone screen without scrolling */
     #panel-how section { padding: 8px 0 20px; }
     #panel-how .steps { margin-top: 24px; gap: 14px; }
-    #panel-how .step { display: flex; gap: 16px; align-items: flex-start; padding: 18px 20px; }
+    #panel-how .step { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; padding: 18px 20px; }
     #panel-how .step .num { flex: none; margin-bottom: 0; width: 40px; height: 40px; font-size: 1.1rem; }
-    #panel-how .step h3 { font-size: 1.25rem; margin-bottom: 4px; }
-    #panel-how .step p { font-size: 1.05rem; }
+    #panel-how .step h3 { flex: 1; font-size: 1.25rem; margin-bottom: 0; }
+    #panel-how .step p { flex-basis: 100%; font-size: 1.05rem; }
     #panel-how .tab-cta { margin-top: 28px; }
   }
   @media (max-height: 620px) {
